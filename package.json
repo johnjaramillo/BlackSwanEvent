@@ -1,0 +1,23 @@
+{
+  "name": "blackswanevent",
+  "version": "1.0.0",
+  "description": "Test Project\r Blackground Generator",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnjaramillo/BlackSwanEvent.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnjaramillo/BlackSwanEvent/issues"
+  },
+  "homepage": "https://github.com/johnjaramillo/BlackSwanEvent#readme",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "lodash": "^4.17.15"
+  }
+}
